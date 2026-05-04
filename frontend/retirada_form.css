@@ -1,0 +1,151 @@
+/* Reset e base */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #e0e0e0;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+header img {
+  width: 180px;
+  height: auto;
+  margin: 0 auto 15px;
+  display: block;
+}
+
+header h1 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+header p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 8px;
+}
+
+/* Container central */
+.center {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Bloco de conteúdo */
+.card-visualizar {
+  text-align: left;
+}
+
+.card-visualizar p {
+  margin: 10px 0;
+  font-size: 15px;
+  color: #444;
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+/* Status */
+.status-finalizado {
+  font-weight: bold;
+  color: #007700;
+  margin-top: 20px;
+}
+
+/* Botões */
+button,
+a.btn-retirada,
+a {
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 12px 24px;
+  background-color: transparent;
+  border: 1px solid #333;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+button:hover,
+a.btn-retirada:hover,
+a:hover {
+  background-color: #333;
+  color: white;
+}
+
+/* Botão verde para retirada */
+a.btn-retirada {
+  border-color: #007700;
+  color: #007700;
+}
+
+a.btn-retirada:hover {
+  background-color: #007700;
+  color: white;
+}
+
+/* Formulários */
+form label {
+  display: block;
+  margin: 15px 0 5px;
+  font-weight: 500;
+  color: #444;
+}
+
+form input[type="text"],
+form input[type="date"],
+form textarea,
+form select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #fafafa;
+  transition: border-color 0.3s;
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+  border-color: #999;
+  outline: none;
+}
+
+/* Textarea expansível */
+textarea {
+  min-height: 60px;
+  max-height: 300px;
+  resize: none;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  box-sizing: border-box;
+}

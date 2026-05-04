@@ -1,0 +1,143 @@
+/* Reset e base */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Container central */
+.center {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Logo */
+.center img {
+  width: 55%;
+}
+
+/* Títulos */
+.center h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.center h2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0;
+  color: #444;
+}
+
+.center h3 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+/* Formulário */
+form label {
+  display: block;
+  text-align: left;
+  margin: 15px 0 5px;
+  font-weight: 500;
+  color: #444;
+}
+
+form select,
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #fafafa;
+  transition: border-color 0.3s;
+}
+
+form select:focus,
+form input[type="text"]:focus,
+form textarea:focus {
+  border-color: #999;
+  outline: none;
+}
+
+/* Textarea expansível */
+form textarea {
+  width: 100%;
+  max-width: 100%;            /* impede ultrapassar a largura do contêiner */
+  min-height: 40px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #fafafa;
+  resize: none;
+  overflow: hidden;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  box-sizing: border-box;     /* garante que padding não aumente a largura */
+}
+
+
+/* Botão */
+button {
+  margin-top: 25px;
+  width: 100%;
+  padding: 12px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #000;
+}
+
+/* Mensagem de retorno */
+p {
+  margin-top: 20px;
+  font-weight: 500;
+  color: #007700;
+}
+
+/* Link voltar */
+a {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid #333;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+a:hover {
+  background-color: #333;
+  color: white;
+}

@@ -1,0 +1,83 @@
+/* Reset e base */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Cabeçalho */
+header {
+  width: 100%;
+  padding: 30px 20px;
+  background-color: #e0e0e0;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+header img {
+  width: 180px;
+  margin-bottom: 15px;
+}
+
+header h1 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Conteúdo central */
+.center {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.secao {
+  margin-bottom: 40px;
+  text-align: left;
+  border-left: 4px solid #0077cc;
+  padding-left: 16px;
+}
+
+.secao h2 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #0077cc;
+}
+
+.secao p {
+  margin: 6px 0;
+  font-size: 15px;
+}
+
+
+/* Botão voltar */
+a {
+  display: block;
+  width: fit-content;
+  margin: 20px auto; 
+  /* centraliza horizontalmente */
+  padding: 12px 24px;
+  background-color: #333;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.6s ease;
+}
+
+a:hover {
+  background-color: #000;
+}

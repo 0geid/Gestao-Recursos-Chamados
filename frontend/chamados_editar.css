@@ -1,0 +1,116 @@
+/* Reset e base */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #e0e0e0;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+header img {
+  width: 180px;
+  height: auto;
+  margin: 0 auto 15px;
+  display: block;
+}
+
+/* Container central */
+.center {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.center p {
+  margin: 10px 0;
+  font-size: 15px;
+  color: #444;
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+/* Título */
+.center h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #222;
+  text-align: center;
+}
+/* Textarea expansível e contida */
+textarea {
+  width: 100%;
+  max-width: 100%;              /* impede ultrapassar a largura da div */
+  min-height: 60px;
+  max-height: 300px;            /* limite de altura para evitar estouro vertical */
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #fafafa;
+  resize: none;                 /* impede redimensionamento manual */
+  overflow-y: auto;             /* adiciona rolagem vertical se necessário */
+  white-space: pre-wrap;        /* mantém quebras de linha */
+  word-wrap: break-word;        /* quebra palavras longas */
+  overflow-wrap: break-word;    /* compatibilidade extra */
+  box-sizing: border-box;       /* inclui padding na largura */
+}
+/* Botão */
+button {
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+  padding: 12px;
+  background-color: transparent;
+  border: 1px solid #333;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #333;
+  color: white;
+}
+
+/* Link */
+a {
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+  padding: 12px;
+  background-color: transparent;
+  border: 1px solid #333;
+  border-radius: 8px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 500;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background-color: #333;
+  color: white;
+}

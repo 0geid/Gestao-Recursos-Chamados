@@ -1,0 +1,68 @@
+/* Reset e base */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Container central */
+.center {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Logo */
+.center img {
+  width: 100%;
+}
+.center h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+/* Títulos */
+.center h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.center h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+/* Links */
+a {
+  display: block;
+  margin: 12px auto;
+  padding: 12px 20px;
+  width: 80%;
+  background-color: transparent;
+  border: 1px solid #333;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+a:hover {
+  background-color: #333;
+  color: white;
+}
